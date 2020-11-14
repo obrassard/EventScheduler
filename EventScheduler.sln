@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventScheduler", "EventScheduler\EventScheduler.csproj", "{6BDD5AC4-6E21-46B8-BBCB-A6E95935ECBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDD5AC4-6E21-46B8-BBCB-A6E95935ECBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDD5AC4-6E21-46B8-BBCB-A6E95935ECBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDD5AC4-6E21-46B8-BBCB-A6E95935ECBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDD5AC4-6E21-46B8-BBCB-A6E95935ECBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -36,9 +36,14 @@ namespace EventScheduler
             };
             schedulerService.Schedule(@event);
             
-            schedulerService.Schedule(new DailyEvent(new TimeSpan(23, 02, 0), DateTime.Now.AddDays(2),() =>
+            schedulerService.Schedule(new DailyEvent(new TimeSpan(23, 02, 0),() =>
             {
                 Console.WriteLine("Triggered DailyEvent");
+            }));
+            
+            schedulerService.Schedule(new YearlyEvent(new DateTime(2020,11,16, 10, 51,0),() =>
+            {
+                Console.WriteLine("YearlyEvent triggered");
             }));
             
             // WeeklySchedule[] schedules = new[]

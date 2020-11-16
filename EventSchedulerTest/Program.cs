@@ -46,6 +46,11 @@ namespace EventScheduler
                 Console.WriteLine("YearlyEvent triggered");
             }));
             
+            schedulerService.Schedule(new MonthlyEvent(new DateTime(2020,11,16, 10, 12,0),() =>
+            {
+                Console.WriteLine("MonthlyEvent triggered");
+            }));
+            
             // WeeklySchedule[] schedules = new[]
             // {
             //     new WeeklySchedule(DayOfWeek.Saturday, new TimeSpan(19, 00, 0)),

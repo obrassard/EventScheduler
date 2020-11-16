@@ -31,10 +31,20 @@ namespace EventScheduler
             Console.WriteLine($"{DateTime.Now} : Scheduled new {evt.GetType().Name} @ {evt.ScheduledTime}");
         }
         
+        public bool CancelEvent(IScheduledEvent evt)
+        {
+            if (_eventQueue.Remove(evt))
+            {
+                Console.WriteLine($"{DateTime.Now} : Cancelled {evt.GetType().Name} previously scheduled @ {evt.ScheduledTime}");
+                return true;
+            }
+            return false;
+        }
+        
         private void OnTimerElapsed(object sender, ElapsedEventArgs e)
         {
             // While there is event that should be triggered at this time
-            while (_eventQueue.Peek().ScheduledTime <= e.SignalTime)
+            while (_eventQueue.Peek()?.ScheduledTime <= e.SignalTime)
             {
                 IScheduledEvent evt = _eventQueue.Dequeue();
                 

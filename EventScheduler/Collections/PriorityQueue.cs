@@ -3,18 +3,29 @@ using System.Collections.Generic;
 
 namespace EventScheduler.Collections
 {
+    /// <summary>
+    /// Heap priority queue implementation
+    /// </summary>
+    /// <typeparam name="T">The type of object stored in this queue</typeparam>
     public class PriorityQueue<T> where T : IComparable<T>
     {
         private List<T> _data;
 
+        /// <summary>
+        /// Initialize an new instance of the PriorityQueue class.
+        /// </summary>
         public PriorityQueue()
         {
             _data = new List<T>();
         }
 
-        public void Enqueue(T item)
+        /// <summary>
+        /// Adds a new element in the Queue
+        /// </summary>
+        /// <param name="element">The element to add</param>
+        public void Enqueue(T element)
         {
-            _data.Add(item);
+            _data.Add(element);
             int ci = _data.Count - 1; // child index; start at end
             while (ci > 0)
             {
@@ -28,6 +39,11 @@ namespace EventScheduler.Collections
             }
         }
 
+        /// <summary>
+        /// Remove and returns the first element of the priority queue
+        /// (the element with the higher priority)
+        /// </summary>
+        /// <returns>The first element of the priority queue</returns>
         public T Dequeue()
         {
             // assumes pq is not empty; up to calling code
@@ -60,6 +76,10 @@ namespace EventScheduler.Collections
             return frontItem;
         }
 
+        /// <summary>
+        /// Returns the first element of the queue (the one with the highest priority)
+        /// </summary>
+        /// <returns>The first element of the queue</returns>
         public T Peek()
         {
             if (_data.Count == 0)
@@ -69,11 +89,16 @@ namespace EventScheduler.Collections
             return frontItem;
         }
 
-        public bool Remove(T item)
+        /// <summary>
+        /// Remove a specific element from the priority queue
+        /// </summary>
+        /// <param name="element">The element to remove</param>
+        /// <returns>True if an element was removed</returns>
+        public bool Remove(T element)
         {
             // assumes pq is not empty; up to calling code
             int li = _data.Count - 1; // last index (before removal)
-            int iToRemove = _data.IndexOf(item); //find item to remove
+            int iToRemove = _data.IndexOf(element); //find item to remove
 
             if (iToRemove == -1) return false;
 
@@ -101,11 +126,19 @@ namespace EventScheduler.Collections
             return true;
         }
 
+        /// <summary>
+        /// Get the number of elements contained in the priority queue
+        /// </summary>
+        /// <returns>the number of elements</returns>
         public int Count()
         {
             return _data.Count;
         }
 
+        /// <summary>
+        /// Returns a string that represent this queue.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string s = "";
@@ -114,8 +147,8 @@ namespace EventScheduler.Collections
             s += "count = " + _data.Count;
             return s;
         }
-
-        public bool IsConsistent()
+        
+        private bool IsConsistent()
         {
             // is the heap property true for all data?
             if (_data.Count == 0) return true;

@@ -20,7 +20,7 @@ namespace EventScheduler.Events
                 throw new ArgumentException("timeOfDay is not a valid hour");
             
             if (startDay < DateTime.Today)
-                throw new ArgumentException("startDay cannot be passed");
+                throw new ArgumentException("startDay cannot be in the past");
 
             _scheduledHour = timeOfDay;
             ScheduledTime = GetNextScheduleDate(startDay);

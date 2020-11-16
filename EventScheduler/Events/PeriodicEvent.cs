@@ -15,7 +15,7 @@ namespace EventScheduler.Events
         {
             if (startDate < DateTime.Now)
             {
-                throw new ArgumentException("startDate cannot be passed");
+                throw new ArgumentException("startDate cannot be in the past");
             }
             _timePeriod = timePeriod;
             ScheduledTime = startDate + timePeriod;

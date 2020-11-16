@@ -10,7 +10,7 @@ namespace EventScheduler.Events
         {
             if (scheduledDateTime < DateTime.Now)
             {
-                throw new ArgumentException("scheduledTime cannot be passed");
+                throw new ArgumentException("scheduledTime cannot be in the past");
             }
             ScheduledTime = scheduledDateTime;
         }

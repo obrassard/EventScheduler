@@ -10,7 +10,7 @@ namespace EventScheduler.Events
         {
             if (firstOccurence < DateTime.Now)
             {
-                throw new ArgumentException("firstOccurence cannot be passed");
+                throw new ArgumentException("firstOccurence cannot be in the past");
             }
             ScheduledTime = firstOccurence;
         }

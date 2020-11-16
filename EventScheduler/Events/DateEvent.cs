@@ -6,16 +6,16 @@ namespace EventScheduler.Events
     {
         public sealed override DateTime ScheduledTime { get; protected set; }
 
-        public ScheduledEvent(DateTime scheduledTime)
+        public ScheduledEvent(DateTime scheduledDateTime)
         {
-            if (scheduledTime < DateTime.Now)
+            if (scheduledDateTime < DateTime.Now)
             {
                 throw new ArgumentException("scheduledTime cannot be passed");
             }
-            ScheduledTime = scheduledTime;
+            ScheduledTime = scheduledDateTime;
         }
         
-        public ScheduledEvent(DateTime scheduledTime, Action action): this(scheduledTime)
+        public ScheduledEvent(DateTime scheduledDateTime, Action action): this(scheduledDateTime)
         {
             _action = action;
         }

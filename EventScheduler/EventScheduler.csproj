@@ -3,6 +3,12 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <RootNamespace>EventScheduler</RootNamespace>
+        <Nullable>disable</Nullable>
+        <Authors>Olivier Brassard</Authors>
+        <PackageProjectUrl>https://github.com/obrassard/EventScheduler</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/obrassard/EventScheduler</RepositoryUrl>
+        <Company>obrassard</Company>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
 </Project>

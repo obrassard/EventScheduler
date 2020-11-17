@@ -3,7 +3,7 @@
 
 ### Getting started
 
-<img alt="See this package on NuGet" src="https://img.shields.io/badge/-See%20this%20package%20on%20NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" />
+<a href="https://www.nuget.org/packages/EventScheduler/"><img alt="See this package on NuGet" src="https://img.shields.io/badge/-See%20this%20package%20on%20NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" /></a>
 
 ```
 Install-Package EventScheduler -Version 1.0.0

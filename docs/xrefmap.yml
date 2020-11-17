@@ -1,0 +1,782 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: EventScheduler.Events
+  name: EventScheduler.Events
+  href: reference/EventScheduler.Events.html
+  commentId: N:EventScheduler.Events
+  fullName: EventScheduler.Events
+  nameWithType: EventScheduler.Events
+- uid: EventScheduler.Events.DailyEvent
+  name: DailyEvent
+  href: reference/EventScheduler.Events.DailyEvent.html
+  commentId: T:EventScheduler.Events.DailyEvent
+  fullName: EventScheduler.Events.DailyEvent
+  nameWithType: DailyEvent
+- uid: EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan)
+  name: DailyEvent(TimeSpan)
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent__ctor_System_TimeSpan_
+  commentId: M:EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan)
+  fullName: EventScheduler.Events.DailyEvent.DailyEvent(System.TimeSpan)
+  nameWithType: DailyEvent.DailyEvent(TimeSpan)
+- uid: EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan,System.Action)
+  name: DailyEvent(TimeSpan, Action)
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent__ctor_System_TimeSpan_System_Action_
+  commentId: M:EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan,System.Action)
+  fullName: EventScheduler.Events.DailyEvent.DailyEvent(System.TimeSpan, System.Action)
+  nameWithType: DailyEvent.DailyEvent(TimeSpan, Action)
+- uid: EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan,System.DateTime)
+  name: DailyEvent(TimeSpan, DateTime)
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent__ctor_System_TimeSpan_System_DateTime_
+  commentId: M:EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan,System.DateTime)
+  fullName: EventScheduler.Events.DailyEvent.DailyEvent(System.TimeSpan, System.DateTime)
+  nameWithType: DailyEvent.DailyEvent(TimeSpan, DateTime)
+- uid: EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan,System.DateTime,System.Action)
+  name: DailyEvent(TimeSpan, DateTime, Action)
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent__ctor_System_TimeSpan_System_DateTime_System_Action_
+  commentId: M:EventScheduler.Events.DailyEvent.#ctor(System.TimeSpan,System.DateTime,System.Action)
+  fullName: EventScheduler.Events.DailyEvent.DailyEvent(System.TimeSpan, System.DateTime, System.Action)
+  nameWithType: DailyEvent.DailyEvent(TimeSpan, DateTime, Action)
+- uid: EventScheduler.Events.DailyEvent.#ctor*
+  name: DailyEvent
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent__ctor_
+  commentId: Overload:EventScheduler.Events.DailyEvent.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Events.DailyEvent.DailyEvent
+  nameWithType: DailyEvent.DailyEvent
+- uid: EventScheduler.Events.DailyEvent.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent_ScheduledTime
+  commentId: P:EventScheduler.Events.DailyEvent.ScheduledTime
+  fullName: EventScheduler.Events.DailyEvent.ScheduledTime
+  nameWithType: DailyEvent.ScheduledTime
+- uid: EventScheduler.Events.DailyEvent.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.DailyEvent.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.DailyEvent.ScheduledTime
+  nameWithType: DailyEvent.ScheduledTime
+- uid: EventScheduler.Events.DailyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  name: Trigger(IEventScheduler)
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent_Trigger_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Events.DailyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Events.DailyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  nameWithType: DailyEvent.Trigger(IEventScheduler)
+- uid: EventScheduler.Events.DailyEvent.Trigger*
+  name: Trigger
+  href: reference/EventScheduler.Events.DailyEvent.html#EventScheduler_Events_DailyEvent_Trigger_
+  commentId: Overload:EventScheduler.Events.DailyEvent.Trigger
+  isSpec: "True"
+  fullName: EventScheduler.Events.DailyEvent.Trigger
+  nameWithType: DailyEvent.Trigger
+- uid: EventScheduler.Events.DateEvent
+  name: DateEvent
+  href: reference/EventScheduler.Events.DateEvent.html
+  commentId: T:EventScheduler.Events.DateEvent
+  fullName: EventScheduler.Events.DateEvent
+  nameWithType: DateEvent
+- uid: EventScheduler.Events.DateEvent.#ctor(System.DateTime)
+  name: DateEvent(DateTime)
+  href: reference/EventScheduler.Events.DateEvent.html#EventScheduler_Events_DateEvent__ctor_System_DateTime_
+  commentId: M:EventScheduler.Events.DateEvent.#ctor(System.DateTime)
+  fullName: EventScheduler.Events.DateEvent.DateEvent(System.DateTime)
+  nameWithType: DateEvent.DateEvent(DateTime)
+- uid: EventScheduler.Events.DateEvent.#ctor(System.DateTime,System.Action)
+  name: DateEvent(DateTime, Action)
+  href: reference/EventScheduler.Events.DateEvent.html#EventScheduler_Events_DateEvent__ctor_System_DateTime_System_Action_
+  commentId: M:EventScheduler.Events.DateEvent.#ctor(System.DateTime,System.Action)
+  fullName: EventScheduler.Events.DateEvent.DateEvent(System.DateTime, System.Action)
+  nameWithType: DateEvent.DateEvent(DateTime, Action)
+- uid: EventScheduler.Events.DateEvent.#ctor*
+  name: DateEvent
+  href: reference/EventScheduler.Events.DateEvent.html#EventScheduler_Events_DateEvent__ctor_
+  commentId: Overload:EventScheduler.Events.DateEvent.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Events.DateEvent.DateEvent
+  nameWithType: DateEvent.DateEvent
+- uid: EventScheduler.Events.DateEvent.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.DateEvent.html#EventScheduler_Events_DateEvent_ScheduledTime
+  commentId: P:EventScheduler.Events.DateEvent.ScheduledTime
+  fullName: EventScheduler.Events.DateEvent.ScheduledTime
+  nameWithType: DateEvent.ScheduledTime
+- uid: EventScheduler.Events.DateEvent.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.DateEvent.html#EventScheduler_Events_DateEvent_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.DateEvent.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.DateEvent.ScheduledTime
+  nameWithType: DateEvent.ScheduledTime
+- uid: EventScheduler.Events.IScheduledEvent
+  name: IScheduledEvent
+  href: reference/EventScheduler.Events.IScheduledEvent.html
+  commentId: T:EventScheduler.Events.IScheduledEvent
+  fullName: EventScheduler.Events.IScheduledEvent
+  nameWithType: IScheduledEvent
+- uid: EventScheduler.Events.IScheduledEvent.EventTriggered
+  name: EventTriggered
+  href: reference/EventScheduler.Events.IScheduledEvent.html#EventScheduler_Events_IScheduledEvent_EventTriggered
+  commentId: E:EventScheduler.Events.IScheduledEvent.EventTriggered
+  fullName: EventScheduler.Events.IScheduledEvent.EventTriggered
+  nameWithType: IScheduledEvent.EventTriggered
+- uid: EventScheduler.Events.IScheduledEvent.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.IScheduledEvent.html#EventScheduler_Events_IScheduledEvent_ScheduledTime
+  commentId: P:EventScheduler.Events.IScheduledEvent.ScheduledTime
+  fullName: EventScheduler.Events.IScheduledEvent.ScheduledTime
+  nameWithType: IScheduledEvent.ScheduledTime
+- uid: EventScheduler.Events.IScheduledEvent.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.IScheduledEvent.html#EventScheduler_Events_IScheduledEvent_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.IScheduledEvent.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.IScheduledEvent.ScheduledTime
+  nameWithType: IScheduledEvent.ScheduledTime
+- uid: EventScheduler.Events.IScheduledEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  name: Trigger(IEventScheduler)
+  href: reference/EventScheduler.Events.IScheduledEvent.html#EventScheduler_Events_IScheduledEvent_Trigger_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Events.IScheduledEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Events.IScheduledEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  nameWithType: IScheduledEvent.Trigger(IEventScheduler)
+- uid: EventScheduler.Events.IScheduledEvent.Trigger*
+  name: Trigger
+  href: reference/EventScheduler.Events.IScheduledEvent.html#EventScheduler_Events_IScheduledEvent_Trigger_
+  commentId: Overload:EventScheduler.Events.IScheduledEvent.Trigger
+  isSpec: "True"
+  fullName: EventScheduler.Events.IScheduledEvent.Trigger
+  nameWithType: IScheduledEvent.Trigger
+- uid: EventScheduler.Events.MonthlyEvent
+  name: MonthlyEvent
+  href: reference/EventScheduler.Events.MonthlyEvent.html
+  commentId: T:EventScheduler.Events.MonthlyEvent
+  fullName: EventScheduler.Events.MonthlyEvent
+  nameWithType: MonthlyEvent
+- uid: EventScheduler.Events.MonthlyEvent.#ctor(System.DateTime)
+  name: MonthlyEvent(DateTime)
+  href: reference/EventScheduler.Events.MonthlyEvent.html#EventScheduler_Events_MonthlyEvent__ctor_System_DateTime_
+  commentId: M:EventScheduler.Events.MonthlyEvent.#ctor(System.DateTime)
+  fullName: EventScheduler.Events.MonthlyEvent.MonthlyEvent(System.DateTime)
+  nameWithType: MonthlyEvent.MonthlyEvent(DateTime)
+- uid: EventScheduler.Events.MonthlyEvent.#ctor(System.DateTime,System.Action)
+  name: MonthlyEvent(DateTime, Action)
+  href: reference/EventScheduler.Events.MonthlyEvent.html#EventScheduler_Events_MonthlyEvent__ctor_System_DateTime_System_Action_
+  commentId: M:EventScheduler.Events.MonthlyEvent.#ctor(System.DateTime,System.Action)
+  fullName: EventScheduler.Events.MonthlyEvent.MonthlyEvent(System.DateTime, System.Action)
+  nameWithType: MonthlyEvent.MonthlyEvent(DateTime, Action)
+- uid: EventScheduler.Events.MonthlyEvent.#ctor*
+  name: MonthlyEvent
+  href: reference/EventScheduler.Events.MonthlyEvent.html#EventScheduler_Events_MonthlyEvent__ctor_
+  commentId: Overload:EventScheduler.Events.MonthlyEvent.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Events.MonthlyEvent.MonthlyEvent
+  nameWithType: MonthlyEvent.MonthlyEvent
+- uid: EventScheduler.Events.MonthlyEvent.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.MonthlyEvent.html#EventScheduler_Events_MonthlyEvent_ScheduledTime
+  commentId: P:EventScheduler.Events.MonthlyEvent.ScheduledTime
+  fullName: EventScheduler.Events.MonthlyEvent.ScheduledTime
+  nameWithType: MonthlyEvent.ScheduledTime
+- uid: EventScheduler.Events.MonthlyEvent.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.MonthlyEvent.html#EventScheduler_Events_MonthlyEvent_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.MonthlyEvent.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.MonthlyEvent.ScheduledTime
+  nameWithType: MonthlyEvent.ScheduledTime
+- uid: EventScheduler.Events.MonthlyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  name: Trigger(IEventScheduler)
+  href: reference/EventScheduler.Events.MonthlyEvent.html#EventScheduler_Events_MonthlyEvent_Trigger_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Events.MonthlyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Events.MonthlyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  nameWithType: MonthlyEvent.Trigger(IEventScheduler)
+- uid: EventScheduler.Events.MonthlyEvent.Trigger*
+  name: Trigger
+  href: reference/EventScheduler.Events.MonthlyEvent.html#EventScheduler_Events_MonthlyEvent_Trigger_
+  commentId: Overload:EventScheduler.Events.MonthlyEvent.Trigger
+  isSpec: "True"
+  fullName: EventScheduler.Events.MonthlyEvent.Trigger
+  nameWithType: MonthlyEvent.Trigger
+- uid: EventScheduler.Events.PeriodicEvent
+  name: PeriodicEvent
+  href: reference/EventScheduler.Events.PeriodicEvent.html
+  commentId: T:EventScheduler.Events.PeriodicEvent
+  fullName: EventScheduler.Events.PeriodicEvent
+  nameWithType: PeriodicEvent
+- uid: EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan)
+  name: PeriodicEvent(TimeSpan)
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent__ctor_System_TimeSpan_
+  commentId: M:EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan)
+  fullName: EventScheduler.Events.PeriodicEvent.PeriodicEvent(System.TimeSpan)
+  nameWithType: PeriodicEvent.PeriodicEvent(TimeSpan)
+- uid: EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan,System.Action)
+  name: PeriodicEvent(TimeSpan, Action)
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent__ctor_System_TimeSpan_System_Action_
+  commentId: M:EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan,System.Action)
+  fullName: EventScheduler.Events.PeriodicEvent.PeriodicEvent(System.TimeSpan, System.Action)
+  nameWithType: PeriodicEvent.PeriodicEvent(TimeSpan, Action)
+- uid: EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan,System.DateTime)
+  name: PeriodicEvent(TimeSpan, DateTime)
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent__ctor_System_TimeSpan_System_DateTime_
+  commentId: M:EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan,System.DateTime)
+  fullName: EventScheduler.Events.PeriodicEvent.PeriodicEvent(System.TimeSpan, System.DateTime)
+  nameWithType: PeriodicEvent.PeriodicEvent(TimeSpan, DateTime)
+- uid: EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan,System.DateTime,System.Action)
+  name: PeriodicEvent(TimeSpan, DateTime, Action)
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent__ctor_System_TimeSpan_System_DateTime_System_Action_
+  commentId: M:EventScheduler.Events.PeriodicEvent.#ctor(System.TimeSpan,System.DateTime,System.Action)
+  fullName: EventScheduler.Events.PeriodicEvent.PeriodicEvent(System.TimeSpan, System.DateTime, System.Action)
+  nameWithType: PeriodicEvent.PeriodicEvent(TimeSpan, DateTime, Action)
+- uid: EventScheduler.Events.PeriodicEvent.#ctor*
+  name: PeriodicEvent
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent__ctor_
+  commentId: Overload:EventScheduler.Events.PeriodicEvent.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Events.PeriodicEvent.PeriodicEvent
+  nameWithType: PeriodicEvent.PeriodicEvent
+- uid: EventScheduler.Events.PeriodicEvent.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent_ScheduledTime
+  commentId: P:EventScheduler.Events.PeriodicEvent.ScheduledTime
+  fullName: EventScheduler.Events.PeriodicEvent.ScheduledTime
+  nameWithType: PeriodicEvent.ScheduledTime
+- uid: EventScheduler.Events.PeriodicEvent.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.PeriodicEvent.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.PeriodicEvent.ScheduledTime
+  nameWithType: PeriodicEvent.ScheduledTime
+- uid: EventScheduler.Events.PeriodicEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  name: Trigger(IEventScheduler)
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent_Trigger_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Events.PeriodicEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Events.PeriodicEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  nameWithType: PeriodicEvent.Trigger(IEventScheduler)
+- uid: EventScheduler.Events.PeriodicEvent.Trigger*
+  name: Trigger
+  href: reference/EventScheduler.Events.PeriodicEvent.html#EventScheduler_Events_PeriodicEvent_Trigger_
+  commentId: Overload:EventScheduler.Events.PeriodicEvent.Trigger
+  isSpec: "True"
+  fullName: EventScheduler.Events.PeriodicEvent.Trigger
+  nameWithType: PeriodicEvent.Trigger
+- uid: EventScheduler.Events.ScheduledEventBase
+  name: ScheduledEventBase
+  href: reference/EventScheduler.Events.ScheduledEventBase.html
+  commentId: T:EventScheduler.Events.ScheduledEventBase
+  fullName: EventScheduler.Events.ScheduledEventBase
+  nameWithType: ScheduledEventBase
+- uid: EventScheduler.Events.ScheduledEventBase._action
+  name: _action
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase__action
+  commentId: F:EventScheduler.Events.ScheduledEventBase._action
+  fullName: EventScheduler.Events.ScheduledEventBase._action
+  nameWithType: ScheduledEventBase._action
+- uid: EventScheduler.Events.ScheduledEventBase.CompareTo(EventScheduler.Events.IScheduledEvent)
+  name: CompareTo(IScheduledEvent)
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase_CompareTo_EventScheduler_Events_IScheduledEvent_
+  commentId: M:EventScheduler.Events.ScheduledEventBase.CompareTo(EventScheduler.Events.IScheduledEvent)
+  fullName: EventScheduler.Events.ScheduledEventBase.CompareTo(EventScheduler.Events.IScheduledEvent)
+  nameWithType: ScheduledEventBase.CompareTo(IScheduledEvent)
+- uid: EventScheduler.Events.ScheduledEventBase.CompareTo*
+  name: CompareTo
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase_CompareTo_
+  commentId: Overload:EventScheduler.Events.ScheduledEventBase.CompareTo
+  isSpec: "True"
+  fullName: EventScheduler.Events.ScheduledEventBase.CompareTo
+  nameWithType: ScheduledEventBase.CompareTo
+- uid: EventScheduler.Events.ScheduledEventBase.EventTriggered
+  name: EventTriggered
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase_EventTriggered
+  commentId: E:EventScheduler.Events.ScheduledEventBase.EventTriggered
+  fullName: EventScheduler.Events.ScheduledEventBase.EventTriggered
+  nameWithType: ScheduledEventBase.EventTriggered
+- uid: EventScheduler.Events.ScheduledEventBase.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase_ScheduledTime
+  commentId: P:EventScheduler.Events.ScheduledEventBase.ScheduledTime
+  fullName: EventScheduler.Events.ScheduledEventBase.ScheduledTime
+  nameWithType: ScheduledEventBase.ScheduledTime
+- uid: EventScheduler.Events.ScheduledEventBase.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.ScheduledEventBase.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.ScheduledEventBase.ScheduledTime
+  nameWithType: ScheduledEventBase.ScheduledTime
+- uid: EventScheduler.Events.ScheduledEventBase.Trigger(EventScheduler.Service.IEventScheduler)
+  name: Trigger(IEventScheduler)
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase_Trigger_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Events.ScheduledEventBase.Trigger(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Events.ScheduledEventBase.Trigger(EventScheduler.Service.IEventScheduler)
+  nameWithType: ScheduledEventBase.Trigger(IEventScheduler)
+- uid: EventScheduler.Events.ScheduledEventBase.Trigger*
+  name: Trigger
+  href: reference/EventScheduler.Events.ScheduledEventBase.html#EventScheduler_Events_ScheduledEventBase_Trigger_
+  commentId: Overload:EventScheduler.Events.ScheduledEventBase.Trigger
+  isSpec: "True"
+  fullName: EventScheduler.Events.ScheduledEventBase.Trigger
+  nameWithType: ScheduledEventBase.Trigger
+- uid: EventScheduler.Events.WeeklyEvent
+  name: WeeklyEvent
+  href: reference/EventScheduler.Events.WeeklyEvent.html
+  commentId: T:EventScheduler.Events.WeeklyEvent
+  fullName: EventScheduler.Events.WeeklyEvent
+  nameWithType: WeeklyEvent
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule})
+  name: WeeklyEvent(ICollection<WeeklySchedule>)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_Collections_Generic_ICollection_EventScheduler_Events_WeeklySchedule__
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule})
+  name.vb: WeeklyEvent(ICollection(Of WeeklySchedule))
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection<EventScheduler.Events.WeeklySchedule>)
+  fullName.vb: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection(Of EventScheduler.Events.WeeklySchedule))
+  nameWithType: WeeklyEvent.WeeklyEvent(ICollection<WeeklySchedule>)
+  nameWithType.vb: WeeklyEvent.WeeklyEvent(ICollection(Of WeeklySchedule))
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule},System.Action)
+  name: WeeklyEvent(ICollection<WeeklySchedule>, Action)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_Collections_Generic_ICollection_EventScheduler_Events_WeeklySchedule__System_Action_
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule},System.Action)
+  name.vb: WeeklyEvent(ICollection(Of WeeklySchedule), Action)
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection<EventScheduler.Events.WeeklySchedule>, System.Action)
+  fullName.vb: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection(Of EventScheduler.Events.WeeklySchedule), System.Action)
+  nameWithType: WeeklyEvent.WeeklyEvent(ICollection<WeeklySchedule>, Action)
+  nameWithType.vb: WeeklyEvent.WeeklyEvent(ICollection(Of WeeklySchedule), Action)
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule},System.DateTime)
+  name: WeeklyEvent(ICollection<WeeklySchedule>, DateTime)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_Collections_Generic_ICollection_EventScheduler_Events_WeeklySchedule__System_DateTime_
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule},System.DateTime)
+  name.vb: WeeklyEvent(ICollection(Of WeeklySchedule), DateTime)
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection<EventScheduler.Events.WeeklySchedule>, System.DateTime)
+  fullName.vb: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection(Of EventScheduler.Events.WeeklySchedule), System.DateTime)
+  nameWithType: WeeklyEvent.WeeklyEvent(ICollection<WeeklySchedule>, DateTime)
+  nameWithType.vb: WeeklyEvent.WeeklyEvent(ICollection(Of WeeklySchedule), DateTime)
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule},System.DateTime,System.Action)
+  name: WeeklyEvent(ICollection<WeeklySchedule>, DateTime, Action)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_Collections_Generic_ICollection_EventScheduler_Events_WeeklySchedule__System_DateTime_System_Action_
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.Collections.Generic.ICollection{EventScheduler.Events.WeeklySchedule},System.DateTime,System.Action)
+  name.vb: WeeklyEvent(ICollection(Of WeeklySchedule), DateTime, Action)
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection<EventScheduler.Events.WeeklySchedule>, System.DateTime, System.Action)
+  fullName.vb: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.Collections.Generic.ICollection(Of EventScheduler.Events.WeeklySchedule), System.DateTime, System.Action)
+  nameWithType: WeeklyEvent.WeeklyEvent(ICollection<WeeklySchedule>, DateTime, Action)
+  nameWithType.vb: WeeklyEvent.WeeklyEvent(ICollection(Of WeeklySchedule), DateTime, Action)
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan)
+  name: WeeklyEvent(DayOfWeek, TimeSpan)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_DayOfWeek_System_TimeSpan_
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan)
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.DayOfWeek, System.TimeSpan)
+  nameWithType: WeeklyEvent.WeeklyEvent(DayOfWeek, TimeSpan)
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan,System.Action)
+  name: WeeklyEvent(DayOfWeek, TimeSpan, Action)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_DayOfWeek_System_TimeSpan_System_Action_
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan,System.Action)
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.DayOfWeek, System.TimeSpan, System.Action)
+  nameWithType: WeeklyEvent.WeeklyEvent(DayOfWeek, TimeSpan, Action)
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan,System.DateTime)
+  name: WeeklyEvent(DayOfWeek, TimeSpan, DateTime)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_DayOfWeek_System_TimeSpan_System_DateTime_
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan,System.DateTime)
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.DayOfWeek, System.TimeSpan, System.DateTime)
+  nameWithType: WeeklyEvent.WeeklyEvent(DayOfWeek, TimeSpan, DateTime)
+- uid: EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan,System.DateTime,System.Action)
+  name: WeeklyEvent(DayOfWeek, TimeSpan, DateTime, Action)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_System_DayOfWeek_System_TimeSpan_System_DateTime_System_Action_
+  commentId: M:EventScheduler.Events.WeeklyEvent.#ctor(System.DayOfWeek,System.TimeSpan,System.DateTime,System.Action)
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent(System.DayOfWeek, System.TimeSpan, System.DateTime, System.Action)
+  nameWithType: WeeklyEvent.WeeklyEvent(DayOfWeek, TimeSpan, DateTime, Action)
+- uid: EventScheduler.Events.WeeklyEvent.#ctor*
+  name: WeeklyEvent
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent__ctor_
+  commentId: Overload:EventScheduler.Events.WeeklyEvent.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Events.WeeklyEvent.WeeklyEvent
+  nameWithType: WeeklyEvent.WeeklyEvent
+- uid: EventScheduler.Events.WeeklyEvent.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent_ScheduledTime
+  commentId: P:EventScheduler.Events.WeeklyEvent.ScheduledTime
+  fullName: EventScheduler.Events.WeeklyEvent.ScheduledTime
+  nameWithType: WeeklyEvent.ScheduledTime
+- uid: EventScheduler.Events.WeeklyEvent.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.WeeklyEvent.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.WeeklyEvent.ScheduledTime
+  nameWithType: WeeklyEvent.ScheduledTime
+- uid: EventScheduler.Events.WeeklyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  name: Trigger(IEventScheduler)
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent_Trigger_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Events.WeeklyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Events.WeeklyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  nameWithType: WeeklyEvent.Trigger(IEventScheduler)
+- uid: EventScheduler.Events.WeeklyEvent.Trigger*
+  name: Trigger
+  href: reference/EventScheduler.Events.WeeklyEvent.html#EventScheduler_Events_WeeklyEvent_Trigger_
+  commentId: Overload:EventScheduler.Events.WeeklyEvent.Trigger
+  isSpec: "True"
+  fullName: EventScheduler.Events.WeeklyEvent.Trigger
+  nameWithType: WeeklyEvent.Trigger
+- uid: EventScheduler.Events.WeeklySchedule
+  name: WeeklySchedule
+  href: reference/EventScheduler.Events.WeeklySchedule.html
+  commentId: T:EventScheduler.Events.WeeklySchedule
+  fullName: EventScheduler.Events.WeeklySchedule
+  nameWithType: WeeklySchedule
+- uid: EventScheduler.Events.WeeklySchedule.#ctor(System.DayOfWeek,System.TimeSpan)
+  name: WeeklySchedule(DayOfWeek, TimeSpan)
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule__ctor_System_DayOfWeek_System_TimeSpan_
+  commentId: M:EventScheduler.Events.WeeklySchedule.#ctor(System.DayOfWeek,System.TimeSpan)
+  fullName: EventScheduler.Events.WeeklySchedule.WeeklySchedule(System.DayOfWeek, System.TimeSpan)
+  nameWithType: WeeklySchedule.WeeklySchedule(DayOfWeek, TimeSpan)
+- uid: EventScheduler.Events.WeeklySchedule.#ctor*
+  name: WeeklySchedule
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule__ctor_
+  commentId: Overload:EventScheduler.Events.WeeklySchedule.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Events.WeeklySchedule.WeeklySchedule
+  nameWithType: WeeklySchedule.WeeklySchedule
+- uid: EventScheduler.Events.WeeklySchedule.CompareTo(EventScheduler.Events.WeeklySchedule)
+  name: CompareTo(WeeklySchedule)
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule_CompareTo_EventScheduler_Events_WeeklySchedule_
+  commentId: M:EventScheduler.Events.WeeklySchedule.CompareTo(EventScheduler.Events.WeeklySchedule)
+  fullName: EventScheduler.Events.WeeklySchedule.CompareTo(EventScheduler.Events.WeeklySchedule)
+  nameWithType: WeeklySchedule.CompareTo(WeeklySchedule)
+- uid: EventScheduler.Events.WeeklySchedule.CompareTo*
+  name: CompareTo
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule_CompareTo_
+  commentId: Overload:EventScheduler.Events.WeeklySchedule.CompareTo
+  isSpec: "True"
+  fullName: EventScheduler.Events.WeeklySchedule.CompareTo
+  nameWithType: WeeklySchedule.CompareTo
+- uid: EventScheduler.Events.WeeklySchedule.DayOfWeek
+  name: DayOfWeek
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule_DayOfWeek
+  commentId: P:EventScheduler.Events.WeeklySchedule.DayOfWeek
+  fullName: EventScheduler.Events.WeeklySchedule.DayOfWeek
+  nameWithType: WeeklySchedule.DayOfWeek
+- uid: EventScheduler.Events.WeeklySchedule.DayOfWeek*
+  name: DayOfWeek
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule_DayOfWeek_
+  commentId: Overload:EventScheduler.Events.WeeklySchedule.DayOfWeek
+  isSpec: "True"
+  fullName: EventScheduler.Events.WeeklySchedule.DayOfWeek
+  nameWithType: WeeklySchedule.DayOfWeek
+- uid: EventScheduler.Events.WeeklySchedule.TimeOfDay
+  name: TimeOfDay
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule_TimeOfDay
+  commentId: P:EventScheduler.Events.WeeklySchedule.TimeOfDay
+  fullName: EventScheduler.Events.WeeklySchedule.TimeOfDay
+  nameWithType: WeeklySchedule.TimeOfDay
+- uid: EventScheduler.Events.WeeklySchedule.TimeOfDay*
+  name: TimeOfDay
+  href: reference/EventScheduler.Events.WeeklySchedule.html#EventScheduler_Events_WeeklySchedule_TimeOfDay_
+  commentId: Overload:EventScheduler.Events.WeeklySchedule.TimeOfDay
+  isSpec: "True"
+  fullName: EventScheduler.Events.WeeklySchedule.TimeOfDay
+  nameWithType: WeeklySchedule.TimeOfDay
+- uid: EventScheduler.Events.YearlyEvent
+  name: YearlyEvent
+  href: reference/EventScheduler.Events.YearlyEvent.html
+  commentId: T:EventScheduler.Events.YearlyEvent
+  fullName: EventScheduler.Events.YearlyEvent
+  nameWithType: YearlyEvent
+- uid: EventScheduler.Events.YearlyEvent.#ctor(System.DateTime)
+  name: YearlyEvent(DateTime)
+  href: reference/EventScheduler.Events.YearlyEvent.html#EventScheduler_Events_YearlyEvent__ctor_System_DateTime_
+  commentId: M:EventScheduler.Events.YearlyEvent.#ctor(System.DateTime)
+  fullName: EventScheduler.Events.YearlyEvent.YearlyEvent(System.DateTime)
+  nameWithType: YearlyEvent.YearlyEvent(DateTime)
+- uid: EventScheduler.Events.YearlyEvent.#ctor(System.DateTime,System.Action)
+  name: YearlyEvent(DateTime, Action)
+  href: reference/EventScheduler.Events.YearlyEvent.html#EventScheduler_Events_YearlyEvent__ctor_System_DateTime_System_Action_
+  commentId: M:EventScheduler.Events.YearlyEvent.#ctor(System.DateTime,System.Action)
+  fullName: EventScheduler.Events.YearlyEvent.YearlyEvent(System.DateTime, System.Action)
+  nameWithType: YearlyEvent.YearlyEvent(DateTime, Action)
+- uid: EventScheduler.Events.YearlyEvent.#ctor*
+  name: YearlyEvent
+  href: reference/EventScheduler.Events.YearlyEvent.html#EventScheduler_Events_YearlyEvent__ctor_
+  commentId: Overload:EventScheduler.Events.YearlyEvent.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Events.YearlyEvent.YearlyEvent
+  nameWithType: YearlyEvent.YearlyEvent
+- uid: EventScheduler.Events.YearlyEvent.ScheduledTime
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.YearlyEvent.html#EventScheduler_Events_YearlyEvent_ScheduledTime
+  commentId: P:EventScheduler.Events.YearlyEvent.ScheduledTime
+  fullName: EventScheduler.Events.YearlyEvent.ScheduledTime
+  nameWithType: YearlyEvent.ScheduledTime
+- uid: EventScheduler.Events.YearlyEvent.ScheduledTime*
+  name: ScheduledTime
+  href: reference/EventScheduler.Events.YearlyEvent.html#EventScheduler_Events_YearlyEvent_ScheduledTime_
+  commentId: Overload:EventScheduler.Events.YearlyEvent.ScheduledTime
+  isSpec: "True"
+  fullName: EventScheduler.Events.YearlyEvent.ScheduledTime
+  nameWithType: YearlyEvent.ScheduledTime
+- uid: EventScheduler.Events.YearlyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  name: Trigger(IEventScheduler)
+  href: reference/EventScheduler.Events.YearlyEvent.html#EventScheduler_Events_YearlyEvent_Trigger_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Events.YearlyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Events.YearlyEvent.Trigger(EventScheduler.Service.IEventScheduler)
+  nameWithType: YearlyEvent.Trigger(IEventScheduler)
+- uid: EventScheduler.Events.YearlyEvent.Trigger*
+  name: Trigger
+  href: reference/EventScheduler.Events.YearlyEvent.html#EventScheduler_Events_YearlyEvent_Trigger_
+  commentId: Overload:EventScheduler.Events.YearlyEvent.Trigger
+  isSpec: "True"
+  fullName: EventScheduler.Events.YearlyEvent.Trigger
+  nameWithType: YearlyEvent.Trigger
+- uid: EventScheduler.Queue
+  name: EventScheduler.Queue
+  href: reference/EventScheduler.Queue.html
+  commentId: N:EventScheduler.Queue
+  fullName: EventScheduler.Queue
+  nameWithType: EventScheduler.Queue
+- uid: EventScheduler.Queue.PriorityQueue`1
+  name: PriorityQueue<T>
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html
+  commentId: T:EventScheduler.Queue.PriorityQueue`1
+  name.vb: PriorityQueue(Of T)
+  fullName: EventScheduler.Queue.PriorityQueue<T>
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T)
+  nameWithType: PriorityQueue<T>
+  nameWithType.vb: PriorityQueue(Of T)
+- uid: EventScheduler.Queue.PriorityQueue`1.#ctor
+  name: PriorityQueue()
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1__ctor
+  commentId: M:EventScheduler.Queue.PriorityQueue`1.#ctor
+  fullName: EventScheduler.Queue.PriorityQueue<T>.PriorityQueue()
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).PriorityQueue()
+  nameWithType: PriorityQueue<T>.PriorityQueue()
+  nameWithType.vb: PriorityQueue(Of T).PriorityQueue()
+- uid: EventScheduler.Queue.PriorityQueue`1.#ctor*
+  name: PriorityQueue
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1__ctor_
+  commentId: Overload:EventScheduler.Queue.PriorityQueue`1.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Queue.PriorityQueue<T>.PriorityQueue
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).PriorityQueue
+  nameWithType: PriorityQueue<T>.PriorityQueue
+  nameWithType.vb: PriorityQueue(Of T).PriorityQueue
+- uid: EventScheduler.Queue.PriorityQueue`1.Count
+  name: Count()
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Count
+  commentId: M:EventScheduler.Queue.PriorityQueue`1.Count
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Count()
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Count()
+  nameWithType: PriorityQueue<T>.Count()
+  nameWithType.vb: PriorityQueue(Of T).Count()
+- uid: EventScheduler.Queue.PriorityQueue`1.Count*
+  name: Count
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Count_
+  commentId: Overload:EventScheduler.Queue.PriorityQueue`1.Count
+  isSpec: "True"
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Count
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Count
+  nameWithType: PriorityQueue<T>.Count
+  nameWithType.vb: PriorityQueue(Of T).Count
+- uid: EventScheduler.Queue.PriorityQueue`1.Dequeue
+  name: Dequeue()
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Dequeue
+  commentId: M:EventScheduler.Queue.PriorityQueue`1.Dequeue
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Dequeue()
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Dequeue()
+  nameWithType: PriorityQueue<T>.Dequeue()
+  nameWithType.vb: PriorityQueue(Of T).Dequeue()
+- uid: EventScheduler.Queue.PriorityQueue`1.Dequeue*
+  name: Dequeue
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Dequeue_
+  commentId: Overload:EventScheduler.Queue.PriorityQueue`1.Dequeue
+  isSpec: "True"
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Dequeue
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Dequeue
+  nameWithType: PriorityQueue<T>.Dequeue
+  nameWithType.vb: PriorityQueue(Of T).Dequeue
+- uid: EventScheduler.Queue.PriorityQueue`1.Enqueue(`0)
+  name: Enqueue(T)
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Enqueue__0_
+  commentId: M:EventScheduler.Queue.PriorityQueue`1.Enqueue(`0)
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Enqueue(T)
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Enqueue(T)
+  nameWithType: PriorityQueue<T>.Enqueue(T)
+  nameWithType.vb: PriorityQueue(Of T).Enqueue(T)
+- uid: EventScheduler.Queue.PriorityQueue`1.Enqueue*
+  name: Enqueue
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Enqueue_
+  commentId: Overload:EventScheduler.Queue.PriorityQueue`1.Enqueue
+  isSpec: "True"
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Enqueue
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Enqueue
+  nameWithType: PriorityQueue<T>.Enqueue
+  nameWithType.vb: PriorityQueue(Of T).Enqueue
+- uid: EventScheduler.Queue.PriorityQueue`1.Peek
+  name: Peek()
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Peek
+  commentId: M:EventScheduler.Queue.PriorityQueue`1.Peek
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Peek()
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Peek()
+  nameWithType: PriorityQueue<T>.Peek()
+  nameWithType.vb: PriorityQueue(Of T).Peek()
+- uid: EventScheduler.Queue.PriorityQueue`1.Peek*
+  name: Peek
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Peek_
+  commentId: Overload:EventScheduler.Queue.PriorityQueue`1.Peek
+  isSpec: "True"
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Peek
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Peek
+  nameWithType: PriorityQueue<T>.Peek
+  nameWithType.vb: PriorityQueue(Of T).Peek
+- uid: EventScheduler.Queue.PriorityQueue`1.Remove(`0)
+  name: Remove(T)
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Remove__0_
+  commentId: M:EventScheduler.Queue.PriorityQueue`1.Remove(`0)
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Remove(T)
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Remove(T)
+  nameWithType: PriorityQueue<T>.Remove(T)
+  nameWithType.vb: PriorityQueue(Of T).Remove(T)
+- uid: EventScheduler.Queue.PriorityQueue`1.Remove*
+  name: Remove
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_Remove_
+  commentId: Overload:EventScheduler.Queue.PriorityQueue`1.Remove
+  isSpec: "True"
+  fullName: EventScheduler.Queue.PriorityQueue<T>.Remove
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).Remove
+  nameWithType: PriorityQueue<T>.Remove
+  nameWithType.vb: PriorityQueue(Of T).Remove
+- uid: EventScheduler.Queue.PriorityQueue`1.ToString
+  name: ToString()
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_ToString
+  commentId: M:EventScheduler.Queue.PriorityQueue`1.ToString
+  fullName: EventScheduler.Queue.PriorityQueue<T>.ToString()
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).ToString()
+  nameWithType: PriorityQueue<T>.ToString()
+  nameWithType.vb: PriorityQueue(Of T).ToString()
+- uid: EventScheduler.Queue.PriorityQueue`1.ToString*
+  name: ToString
+  href: reference/EventScheduler.Queue.PriorityQueue-1.html#EventScheduler_Queue_PriorityQueue_1_ToString_
+  commentId: Overload:EventScheduler.Queue.PriorityQueue`1.ToString
+  isSpec: "True"
+  fullName: EventScheduler.Queue.PriorityQueue<T>.ToString
+  fullName.vb: EventScheduler.Queue.PriorityQueue(Of T).ToString
+  nameWithType: PriorityQueue<T>.ToString
+  nameWithType.vb: PriorityQueue(Of T).ToString
+- uid: EventScheduler.Service
+  name: EventScheduler.Service
+  href: reference/EventScheduler.Service.html
+  commentId: N:EventScheduler.Service
+  fullName: EventScheduler.Service
+  nameWithType: EventScheduler.Service
+- uid: EventScheduler.Service.EventSchedulerService
+  name: EventSchedulerService
+  href: reference/EventScheduler.Service.EventSchedulerService.html
+  commentId: T:EventScheduler.Service.EventSchedulerService
+  fullName: EventScheduler.Service.EventSchedulerService
+  nameWithType: EventSchedulerService
+- uid: EventScheduler.Service.EventSchedulerService.#ctor
+  name: EventSchedulerService()
+  href: reference/EventScheduler.Service.EventSchedulerService.html#EventScheduler_Service_EventSchedulerService__ctor
+  commentId: M:EventScheduler.Service.EventSchedulerService.#ctor
+  fullName: EventScheduler.Service.EventSchedulerService.EventSchedulerService()
+  nameWithType: EventSchedulerService.EventSchedulerService()
+- uid: EventScheduler.Service.EventSchedulerService.#ctor(System.Int32)
+  name: EventSchedulerService(Int32)
+  href: reference/EventScheduler.Service.EventSchedulerService.html#EventScheduler_Service_EventSchedulerService__ctor_System_Int32_
+  commentId: M:EventScheduler.Service.EventSchedulerService.#ctor(System.Int32)
+  fullName: EventScheduler.Service.EventSchedulerService.EventSchedulerService(System.Int32)
+  nameWithType: EventSchedulerService.EventSchedulerService(Int32)
+- uid: EventScheduler.Service.EventSchedulerService.#ctor*
+  name: EventSchedulerService
+  href: reference/EventScheduler.Service.EventSchedulerService.html#EventScheduler_Service_EventSchedulerService__ctor_
+  commentId: Overload:EventScheduler.Service.EventSchedulerService.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Service.EventSchedulerService.EventSchedulerService
+  nameWithType: EventSchedulerService.EventSchedulerService
+- uid: EventScheduler.Service.EventSchedulerService.CancelEvent(EventScheduler.Events.IScheduledEvent)
+  name: CancelEvent(IScheduledEvent)
+  href: reference/EventScheduler.Service.EventSchedulerService.html#EventScheduler_Service_EventSchedulerService_CancelEvent_EventScheduler_Events_IScheduledEvent_
+  commentId: M:EventScheduler.Service.EventSchedulerService.CancelEvent(EventScheduler.Events.IScheduledEvent)
+  fullName: EventScheduler.Service.EventSchedulerService.CancelEvent(EventScheduler.Events.IScheduledEvent)
+  nameWithType: EventSchedulerService.CancelEvent(IScheduledEvent)
+- uid: EventScheduler.Service.EventSchedulerService.CancelEvent*
+  name: CancelEvent
+  href: reference/EventScheduler.Service.EventSchedulerService.html#EventScheduler_Service_EventSchedulerService_CancelEvent_
+  commentId: Overload:EventScheduler.Service.EventSchedulerService.CancelEvent
+  isSpec: "True"
+  fullName: EventScheduler.Service.EventSchedulerService.CancelEvent
+  nameWithType: EventSchedulerService.CancelEvent
+- uid: EventScheduler.Service.EventSchedulerService.Schedule(EventScheduler.Events.IScheduledEvent)
+  name: Schedule(IScheduledEvent)
+  href: reference/EventScheduler.Service.EventSchedulerService.html#EventScheduler_Service_EventSchedulerService_Schedule_EventScheduler_Events_IScheduledEvent_
+  commentId: M:EventScheduler.Service.EventSchedulerService.Schedule(EventScheduler.Events.IScheduledEvent)
+  fullName: EventScheduler.Service.EventSchedulerService.Schedule(EventScheduler.Events.IScheduledEvent)
+  nameWithType: EventSchedulerService.Schedule(IScheduledEvent)
+- uid: EventScheduler.Service.EventSchedulerService.Schedule*
+  name: Schedule
+  href: reference/EventScheduler.Service.EventSchedulerService.html#EventScheduler_Service_EventSchedulerService_Schedule_
+  commentId: Overload:EventScheduler.Service.EventSchedulerService.Schedule
+  isSpec: "True"
+  fullName: EventScheduler.Service.EventSchedulerService.Schedule
+  nameWithType: EventSchedulerService.Schedule
+- uid: EventScheduler.Service.IEventScheduler
+  name: IEventScheduler
+  href: reference/EventScheduler.Service.IEventScheduler.html
+  commentId: T:EventScheduler.Service.IEventScheduler
+  fullName: EventScheduler.Service.IEventScheduler
+  nameWithType: IEventScheduler
+- uid: EventScheduler.Service.IEventScheduler.CancelEvent(EventScheduler.Events.IScheduledEvent)
+  name: CancelEvent(IScheduledEvent)
+  href: reference/EventScheduler.Service.IEventScheduler.html#EventScheduler_Service_IEventScheduler_CancelEvent_EventScheduler_Events_IScheduledEvent_
+  commentId: M:EventScheduler.Service.IEventScheduler.CancelEvent(EventScheduler.Events.IScheduledEvent)
+  fullName: EventScheduler.Service.IEventScheduler.CancelEvent(EventScheduler.Events.IScheduledEvent)
+  nameWithType: IEventScheduler.CancelEvent(IScheduledEvent)
+- uid: EventScheduler.Service.IEventScheduler.CancelEvent*
+  name: CancelEvent
+  href: reference/EventScheduler.Service.IEventScheduler.html#EventScheduler_Service_IEventScheduler_CancelEvent_
+  commentId: Overload:EventScheduler.Service.IEventScheduler.CancelEvent
+  isSpec: "True"
+  fullName: EventScheduler.Service.IEventScheduler.CancelEvent
+  nameWithType: IEventScheduler.CancelEvent
+- uid: EventScheduler.Service.IEventScheduler.Schedule(EventScheduler.Events.IScheduledEvent)
+  name: Schedule(IScheduledEvent)
+  href: reference/EventScheduler.Service.IEventScheduler.html#EventScheduler_Service_IEventScheduler_Schedule_EventScheduler_Events_IScheduledEvent_
+  commentId: M:EventScheduler.Service.IEventScheduler.Schedule(EventScheduler.Events.IScheduledEvent)
+  fullName: EventScheduler.Service.IEventScheduler.Schedule(EventScheduler.Events.IScheduledEvent)
+  nameWithType: IEventScheduler.Schedule(IScheduledEvent)
+- uid: EventScheduler.Service.IEventScheduler.Schedule*
+  name: Schedule
+  href: reference/EventScheduler.Service.IEventScheduler.html#EventScheduler_Service_IEventScheduler_Schedule_
+  commentId: Overload:EventScheduler.Service.IEventScheduler.Schedule
+  isSpec: "True"
+  fullName: EventScheduler.Service.IEventScheduler.Schedule
+  nameWithType: IEventScheduler.Schedule
+- uid: EventScheduler.Service.SchedulerEventArgs
+  name: SchedulerEventArgs
+  href: reference/EventScheduler.Service.SchedulerEventArgs.html
+  commentId: T:EventScheduler.Service.SchedulerEventArgs
+  fullName: EventScheduler.Service.SchedulerEventArgs
+  nameWithType: SchedulerEventArgs
+- uid: EventScheduler.Service.SchedulerEventArgs.#ctor(EventScheduler.Service.IEventScheduler)
+  name: SchedulerEventArgs(IEventScheduler)
+  href: reference/EventScheduler.Service.SchedulerEventArgs.html#EventScheduler_Service_SchedulerEventArgs__ctor_EventScheduler_Service_IEventScheduler_
+  commentId: M:EventScheduler.Service.SchedulerEventArgs.#ctor(EventScheduler.Service.IEventScheduler)
+  fullName: EventScheduler.Service.SchedulerEventArgs.SchedulerEventArgs(EventScheduler.Service.IEventScheduler)
+  nameWithType: SchedulerEventArgs.SchedulerEventArgs(IEventScheduler)
+- uid: EventScheduler.Service.SchedulerEventArgs.#ctor*
+  name: SchedulerEventArgs
+  href: reference/EventScheduler.Service.SchedulerEventArgs.html#EventScheduler_Service_SchedulerEventArgs__ctor_
+  commentId: Overload:EventScheduler.Service.SchedulerEventArgs.#ctor
+  isSpec: "True"
+  fullName: EventScheduler.Service.SchedulerEventArgs.SchedulerEventArgs
+  nameWithType: SchedulerEventArgs.SchedulerEventArgs
+- uid: EventScheduler.Service.SchedulerEventArgs.EventScheduler
+  name: EventScheduler
+  href: reference/EventScheduler.Service.SchedulerEventArgs.html#EventScheduler_Service_SchedulerEventArgs_EventScheduler
+  commentId: P:EventScheduler.Service.SchedulerEventArgs.EventScheduler
+  fullName: EventScheduler.Service.SchedulerEventArgs.EventScheduler
+  nameWithType: SchedulerEventArgs.EventScheduler
+- uid: EventScheduler.Service.SchedulerEventArgs.EventScheduler*
+  name: EventScheduler
+  href: reference/EventScheduler.Service.SchedulerEventArgs.html#EventScheduler_Service_SchedulerEventArgs_EventScheduler_
+  commentId: Overload:EventScheduler.Service.SchedulerEventArgs.EventScheduler
+  isSpec: "True"
+  fullName: EventScheduler.Service.SchedulerEventArgs.EventScheduler
+  nameWithType: SchedulerEventArgs.EventScheduler

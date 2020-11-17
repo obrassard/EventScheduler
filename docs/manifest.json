@@ -1,0 +1,254 @@
+{
+  "homepages": [],
+  "source_base_path": "/Users/obrassard/Projets/EventScheduler/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.DailyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.DailyEvent.html",
+          "hash": "ET3pRfy3B/I9B0C6R56UEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.DateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.DateEvent.html",
+          "hash": "ABEMFi1h4rcAlERycTzngQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.IScheduledEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.IScheduledEvent.html",
+          "hash": "GyoF0vjeS6xAV3OIKTkOaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.MonthlyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.MonthlyEvent.html",
+          "hash": "19TfZHVNHgW7pTHP5wrWmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.PeriodicEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.PeriodicEvent.html",
+          "hash": "WllpEJ4tw4GFvJbx8iMa1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.ScheduledEventBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.ScheduledEventBase.html",
+          "hash": "WvuPi3vlT69U3ReUfuq4Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.WeeklyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.WeeklyEvent.html",
+          "hash": "EIM/tGLjulH6hHy0fVEfKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.WeeklySchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.WeeklySchedule.html",
+          "hash": "SKOdg8x1FpbXYSnYMrANTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.YearlyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.YearlyEvent.html",
+          "hash": "Nt2KV+voiWANvfnXeqC6aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Events.html",
+          "hash": "K9siklJNlpFj/lmd0S04Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Queue.PriorityQueue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Queue.PriorityQueue-1.html",
+          "hash": "AS/BOBqSgftk8XDoRHQ0mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Queue.html",
+          "hash": "HD0t+0p3HX7x4cwV+i7Gww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Service.EventSchedulerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Service.EventSchedulerService.html",
+          "hash": "fQzLgsLfiIm2R9hLSdcCfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Service.IEventScheduler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Service.IEventScheduler.html",
+          "hash": "V7sa1IQjPF7Q7JVYug3HxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Service.SchedulerEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Service.SchedulerEventArgs.html",
+          "hash": "NfkhTkR0kLWSeXPfupZ4GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/EventScheduler.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/EventScheduler.Service.html",
+          "hash": "NqCcpqvJ8GC4sh7gx5kBDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/toc.html",
+          "hash": "ye9u4LkWZH6I/4SXJ9f81A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

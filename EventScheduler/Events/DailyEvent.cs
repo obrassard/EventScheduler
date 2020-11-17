@@ -1,19 +1,40 @@
 using System;
+using EventScheduler.Service;
 
 namespace EventScheduler.Events
 {
+    /// <summary>
+    /// A DailyEvent is a specific type of ScheduledEvent
+    /// which is triggered every day at a specific time.
+    /// </summary>
     public class DailyEvent : ScheduledEventBase
     {
         private readonly TimeSpan _scheduledHour;
         public sealed override DateTime ScheduledTime { get; protected set; }
 
+        /// <summary>
+        /// Initializes a new instance of DailyEvent with a specific trigger time.
+        /// </summary>
+        /// <param name="timeOfDay">The hour at which the event will be triggered every day</param>
         public DailyEvent(TimeSpan timeOfDay) : this(timeOfDay, DateTime.Today){ }
-
-                
+        
+        /// <summary>
+        /// Initializes a new instance of DailyEvent with a specific trigger time
+        /// providing an Action delegate to invoke.
+        /// </summary>
+        /// <param name="timeOfDay">The hour at which the event will be triggered every day</param>
+        /// <param name="action">The action delegate to invoke on trigger</param>
         public DailyEvent(TimeSpan timeOfDay, Action action) : this(timeOfDay, DateTime.Today)
         {
             _action = action;
         }
+        
+        /// <summary>
+        /// Initializes a new instance of DailyEvent with a specific trigger time,
+        /// starting at a given date. 
+        /// </summary>
+        /// <param name="timeOfDay">The hour at which the event will be triggered every day</param>
+        /// <param name="startDay">The date at which the recurring event must start</param>
         public DailyEvent(TimeSpan timeOfDay, DateTime startDay)
         {
             if (timeOfDay.Hours > 23 || timeOfDay.Minutes > 59 || timeOfDay.Seconds > 59)
@@ -26,6 +47,13 @@ namespace EventScheduler.Events
             ScheduledTime = GetNextScheduleDate(startDay);
         }
 
+        /// <summary>
+        /// Initializes a new instance of DailyEvent with a specific trigger time,
+        /// starting at a given date, providing an Action delegate to invoke. 
+        /// </summary>
+        /// <param name="timeOfDay">The hour at which the event will be triggered every day</param>
+        /// <param name="startDay">The date at which the recurring event must start</param>
+        /// <param name="action">The action delegate to invoke on trigger</param>
         public DailyEvent(TimeSpan timeOfDay, DateTime startDay, Action action) : this(timeOfDay, startDay)
         {
             _action = action;

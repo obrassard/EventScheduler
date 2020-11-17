@@ -1,4 +1,4 @@
-namespace EventScheduler
+namespace EventScheduler.Service
 {
     public class SchedulerEventArgs
     {

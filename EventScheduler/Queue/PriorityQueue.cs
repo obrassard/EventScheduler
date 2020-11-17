@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace EventScheduler.Collections
+namespace EventScheduler.Queue
 {
     /// <summary>
     /// Heap priority queue implementation
@@ -84,7 +84,7 @@ namespace EventScheduler.Collections
         {
             if (_data.Count == 0)
                 return default;
-            
+
             T frontItem = _data[0];
             return frontItem;
         }

@@ -1,10 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using EventScheduler.Collections;
+using EventScheduler.Service;
 
 namespace EventScheduler.Events
 {
+    /// <summary>
+    /// A WeeklyEvent is a specific type of ScheduledEvent
+    /// which is triggered weekly given a specific WeeklySchedule
+    /// (a set of DaysOfWeek / Time)
+    /// </summary>
     public class WeeklyEvent : ScheduledEventBase
     {
         private readonly Queue<WeeklySchedule> _scheduleQueue;
@@ -12,51 +17,103 @@ namespace EventScheduler.Events
 
         #region Constructors
 
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a specific day / time.
+        /// The event will trigger every week at the provided day and time.
+        /// </summary>
+        /// <param name="dayOfWeek">Trigger day</param>
+        /// <param name="timeOfDay">Trigger time</param>
         public WeeklyEvent(DayOfWeek dayOfWeek, TimeSpan timeOfDay) : 
-            this(new WeeklySchedule(dayOfWeek, timeOfDay)){}
+            this(dayOfWeek, timeOfDay, DateTime.Now){}
         
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a specific day / time
+        /// providing an action delegate to invoke on trigger.
+        /// The event will trigger every week at the provided day and time.
+        /// </summary>
+        /// <param name="dayOfWeek">Trigger day</param>
+        /// <param name="timeOfDay">Trigger time</param>
+        /// <param name="action">The action to invoke</param>
+        public WeeklyEvent(DayOfWeek dayOfWeek, TimeSpan timeOfDay, Action action) :
+            this(dayOfWeek, timeOfDay, DateTime.Now, action){}
+        
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a specific day / time, starting at a given date.
+        /// The event will trigger every week at the provided day and time.
+        /// </summary>
+        /// <param name="dayOfWeek">Trigger day</param>
+        /// <param name="timeOfDay">Trigger time</param>
+        /// <param name="startDate">Date on which the recurrence begins</param>
         public WeeklyEvent(DayOfWeek dayOfWeek, TimeSpan timeOfDay, DateTime startDate) : 
-            this(new WeeklySchedule(dayOfWeek, timeOfDay), startDate){}
-        
-        public WeeklyEvent(DayOfWeek dayOfWeek, TimeSpan timeOfDay, DateTime startDate, Action action) : 
-            this(new WeeklySchedule(dayOfWeek, timeOfDay), startDate, action){}
-        
-        public WeeklyEvent(DayOfWeek dayOfWeek, TimeSpan timeOfDay, Action action) : 
-            this(new WeeklySchedule(dayOfWeek, timeOfDay), action){}
+            this(dayOfWeek, timeOfDay, startDate, null){}
 
-        public WeeklyEvent(WeeklySchedule schedule) : this(schedule, DateTime.Now) {}
-        
-        public WeeklyEvent(WeeklySchedule schedule, Action action): this(schedule, DateTime.Now, action) {}
-        
-        public WeeklyEvent(WeeklySchedule schedule, DateTime startDate)
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a specific day / time, starting at a given date,
+        /// providing an action delegate to invoke on trigger.
+        /// The event will trigger every week at the provided day and time.
+        /// </summary>
+        /// <param name="dayOfWeek">Trigger day</param>
+        /// <param name="timeOfDay">Trigger time</param>
+        /// <param name="startDate">Date on which the recurrence begins</param>
+        /// <param name="action">The action to invoke</param>
+        public WeeklyEvent(DayOfWeek dayOfWeek, TimeSpan timeOfDay, DateTime startDate, Action action)
         {
+            var schedule = new WeeklySchedule(dayOfWeek, timeOfDay);
             _scheduleQueue = new Queue<WeeklySchedule>();
             _scheduleQueue.Enqueue(schedule);
             
             ScheduledTime = GetNextScheduleDate(startDate);
+            
+            if (action != null)
+            {
+                _action = action;
+            }
         }
         
-        public WeeklyEvent(WeeklySchedule schedule, DateTime startDate, Action action) : this(schedule, startDate)
-        {
-            _action = action;
-        }
-
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a collection of WeeklySchedule.
+        /// The event will trigger every week following the given schedule.
+        /// </summary>
+        /// <param name="schedule">A collection of WeeklyEvent containing the schedule (dayOfWeeks / times) of this event</param>
         public WeeklyEvent(ICollection<WeeklySchedule> schedule) : this(schedule, DateTime.Now) { }
         
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a collection of WeeklySchedule
+        /// providing an action delegate to invoke on trigger.
+        /// The event will trigger every week following the given schedule.
+        /// </summary>
+        /// <param name="schedule">A collection of WeeklyEvent containing the schedule (dayOfWeeks / times) of this event</param>
+        /// <param name="action">An action to invoke on trigger</param>
         public WeeklyEvent(ICollection<WeeklySchedule> schedule, Action action): this(schedule, DateTime.Now, action) { }
         
-        public WeeklyEvent(ICollection<WeeklySchedule> schedule, DateTime startDate) 
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a collection of WeeklySchedule, starting at a given date.
+        /// The event will trigger every week following the given schedule.
+        /// </summary>
+        /// <param name="schedule">A collection of WeeklyEvent containing the schedule (dayOfWeeks / times) of this event</param>
+        /// <param name="startDate">Date on which the recurrence begins</param>
+        public WeeklyEvent(ICollection<WeeklySchedule> schedule, DateTime startDate): this(schedule, startDate, null){}
+
+        /// <summary>
+        /// Initializes a new instance of WeeklyEvent for a collection of WeeklySchedule, starting at a given date,
+        /// providing an action delegate to invoke on trigger.
+        /// The event will trigger every week following the given schedule.
+        /// </summary>
+        /// <param name="schedule">A collection of WeeklyEvent containing the schedule (dayOfWeeks / times) of this event</param>
+        /// <param name="startDate">Date on which the recurrence begins</param>
+        /// <param name="action">An action to invoke on trigger</param>
+        public WeeklyEvent(ICollection<WeeklySchedule> schedule, DateTime startDate, Action action)
         {
             if (schedule.Count == 0)
                 throw new ArgumentException("A WeeklyEvent must contain at least one WeeklySchedule");
             
             _scheduleQueue = new Queue<WeeklySchedule>(schedule.OrderBy(s=>s));
             ScheduledTime = GetNextScheduleDate(startDate);
-        }
-        
-        public WeeklyEvent(ICollection<WeeklySchedule> schedule, DateTime startDate, Action action) : this(schedule, startDate)
-        {
-            _action = action;
+
+            if (action != null)
+            {
+                _action = action;
+            }
         }
         #endregion
         
@@ -67,6 +124,11 @@ namespace EventScheduler.Events
             scheduler.Schedule(this);
         }
 
+        /// <summary>
+        /// Return the date of the next occurence to schedule
+        /// </summary>
+        /// <param name="startDate">Date on which the recurrence begins</param>
+        /// <returns></returns>
         private DateTime GetNextScheduleDate(DateTime? startDate)
         {
             if (startDate < DateTime.Now) startDate = DateTime.Now;
@@ -88,6 +150,12 @@ namespace EventScheduler.Events
             return scheduleDate;
         }
 
+        /// <summary>
+        /// Get the event that should be triggered next in the queue
+        /// based on the curent DateTime or startDate
+        /// </summary>
+        /// <param name="startDate">Date on which the recurrence begins</param>
+        /// <returns></returns>
         private WeeklySchedule GetNextEventInQueue(DateTime? startDate)
         {
             if (_scheduleQueue.Count == 1)
@@ -119,11 +187,27 @@ namespace EventScheduler.Events
         }
     }
 
+    /// <summary>
+    /// Represents a moment at which to trigger a WeeklyEvent.
+    /// </summary>
     public class WeeklySchedule : IComparable<WeeklySchedule>
     {
+        /// <summary>
+        /// The event trigger day 
+        /// </summary>
         public DayOfWeek DayOfWeek { get; }
+        
+        /// <summary>
+        /// The event trigger time 
+        /// </summary>
         public TimeSpan TimeOfDay { get; }
 
+        /// <summary>
+        /// Create a new instance of WeeklySchedule
+        /// </summary>
+        /// <param name="dayOfWeek">Trigger day</param>
+        /// <param name="timeOfDay">Trigger time</param>
+        /// <exception cref="ArgumentException">If timeOfDay is not a valid 24h time</exception>
         public WeeklySchedule(DayOfWeek dayOfWeek, TimeSpan timeOfDay)
         {
             if (timeOfDay.Hours > 23 || timeOfDay.Minutes > 59 || timeOfDay.Seconds > 59)

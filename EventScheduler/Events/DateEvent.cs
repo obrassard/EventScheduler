@@ -2,20 +2,35 @@ using System;
 
 namespace EventScheduler.Events
 {
-    public class ScheduledEvent : ScheduledEventBase
+    /// <summary>
+    /// A DateEvent is a specific type of ScheduledEvent
+    /// which is triggered once at a specific DateTime.
+    /// </summary>
+    public class DateEvent : ScheduledEventBase
     {
-        public sealed override DateTime ScheduledTime { get; protected set; }
+        public override DateTime ScheduledTime { get; protected set; }
 
-        public ScheduledEvent(DateTime scheduledDateTime)
+        /// <summary>
+        /// Initializes a new instance of DateEvent with a specific trigger date.
+        /// </summary>
+        /// <param name="triggerDateTime">The event's trigger date</param>
+        /// <exception cref="ArgumentException">If scheduledDateTime is a passed date</exception>
+        public DateEvent(DateTime triggerDateTime)
         {
-            if (scheduledDateTime < DateTime.Now)
+            if (triggerDateTime < DateTime.Now)
             {
-                throw new ArgumentException("scheduledTime cannot be in the past");
+                throw new ArgumentException("scheduledDateTime cannot be in the past");
             }
-            ScheduledTime = scheduledDateTime;
+            ScheduledTime = triggerDateTime;
         }
         
-        public ScheduledEvent(DateTime scheduledDateTime, Action action): this(scheduledDateTime)
+        /// <summary>
+        /// Initializes a new instance of DateEvent with a specific trigger date
+        /// providing an Action delegate which will be invoked on scheduled date.
+        /// </summary>
+        /// <param name="triggerDateTime">The event's trigger date</param>
+        /// <param name="action">The action delegate to invoke on trigger</param>
+        public DateEvent(DateTime triggerDateTime, Action action): this(triggerDateTime)
         {
             _action = action;
         }

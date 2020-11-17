@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
-using EventScheduler.Collections;
 using EventScheduler.Events;
+using EventScheduler.Service;
 
 namespace EventScheduler
 {
@@ -13,14 +13,14 @@ namespace EventScheduler
             
             var schedulerService = new EventSchedulerService();
             
-            IScheduledEvent @event = new ScheduledEvent(DateTime.Now.AddSeconds(5));
+            IScheduledEvent @event = new DateEvent(DateTime.Now.AddSeconds(5));
             @event.EventTriggered += (sender, eventArgs) => Console.WriteLine("Triggered 1");
             schedulerService.Schedule(@event);
             
-            @event = new ScheduledEvent(DateTime.Now.AddSeconds(10), () => Console.WriteLine("Triggered in action"));
+            @event = new DateEvent(DateTime.Now.AddSeconds(10), () => Console.WriteLine("Triggered in action"));
             schedulerService.Schedule(@event);
             
-            @event = new ScheduledEvent(DateTime.Now.AddSeconds(10));
+            @event = new DateEvent(DateTime.Now.AddSeconds(10));
             @event.EventTriggered += (sender, eventArgs) => Console.WriteLine("Triggered 2");
             schedulerService.Schedule(@event);
             // schedulerService.CancelEvent(@event);

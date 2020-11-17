@@ -1,9 +1,9 @@
 using System;
 using System.Timers;
-using EventScheduler.Collections;
 using EventScheduler.Events;
+using EventScheduler.Queue;
 
-namespace EventScheduler
+namespace EventScheduler.Service
 {
     /// <summary>
     /// EventSchedulerService is the main implementation of IEventScheduler.

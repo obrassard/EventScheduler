@@ -5,10 +5,14 @@
         <RootNamespace>EventScheduler</RootNamespace>
         <Nullable>disable</Nullable>
         <Authors>Olivier Brassard</Authors>
-        <PackageProjectUrl>https://github.com/obrassard/EventScheduler</PackageProjectUrl>
+        <PackageProjectUrl>https://projects.obrassard.ca/EventScheduler</PackageProjectUrl>
         <RepositoryUrl>https://github.com/obrassard/EventScheduler</RepositoryUrl>
         <Company>obrassard</Company>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>csharp  event-management  dotnet-core  taskscheduler  nuget-package  jobscheduler  eventscheduler  </PackageTags>
+        <Title>EventScheduler</Title>
+        <PackageLicenseUrl>https://github.com/obrassard/EventScheduler/blob/main/LICENSE</PackageLicenseUrl>
     </PropertyGroup>
 
 </Project>
